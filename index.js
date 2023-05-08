@@ -25,3 +25,15 @@ function debounce(fn, t) {
     }
 }
 document.querySelector('.box').addEventListener('mousemove', debounce(mouseMove, 1000))
+const obj = {
+    name: 'coco',
+    age: 18,
+    family: {
+        father: 'father',
+        mother: 'mother'
+    }
+}
+function cloneDeep(obj) {
+    const newObj = Array.isArray(obj ? [] : {});
+}
+cloneDeep(obj)
