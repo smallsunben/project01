@@ -3,3 +3,5 @@ test.html
 1.html
 # 忽略test文件夹
 /test 
+#忽略所有的wuyong文件夹
+wuyong/
